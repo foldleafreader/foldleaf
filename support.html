@@ -6,60 +6,203 @@
 <title>Support · Foldleaf Reader</title>
 <meta name="description" content="Help and contact for Foldleaf Reader.">
 <link rel="canonical" href="https://foldleafreader.github.io/foldleaf/support.html">
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
-<body>
-<header>
-<h1>Support</h1>
-<nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+<body class="home doc">
+
+<header class="topbar">
+<div class="inner">
+<a class="brand" href="index.html" aria-label="Foldleaf Reader"><img src="images/icon-256.png" alt="" width="28" height="28"><span>Foldleaf Reader</span></a>
+<nav>
+<a class="wide" href="index.html">Overview</a>
+<a href="support.html">Support</a>
+<a href="privacy.html">Privacy</a>
+<a class="pill" href="index.html#get">Coming soon</a>
+</nav>
+</div>
 </header>
+
 <main>
+<section class="doc-head">
+<h1 class="reveal">Support</h1>
+<p class="lede reveal" style="--i:1">Questions, faults and requests, answered by the person who made the app.</p>
+</section>
+<div class="doc-body">
 
-<p class="lede">Questions, faults and requests, answered by the person who
-wrote the app.</p>
+<div class="contact reveal">
+<p class="contact-label">Email</p>
+<p class="contact-address">foldleafreader@gmail.com</p>
+<a class="button" href="mailto:foldleafreader@gmail.com">Write an email</a>
+<p class="muted">A reply within a couple of days. No queue and no chatbot: one person.</p>
+</div>
 
-<div class="card">
-<p><strong>Email:</strong> foldleafreader@gmail.com</p>
-<p class="muted">Expect a reply within a couple of days. There is no support
-queue and no chatbot; it is one person.</p>
+<h2>Common questions</h2>
+<div class="questions">
+<details class="q">
+<summary>Where are my books kept?</summary>
+
+<p>That depends on how a book arrived.</p>
+<p><strong>Copied into the library.</strong> A book added with <em>Import a Copy</em>,
+shared to Foldleaf from another app, or saved from the arXiv, Project Gutenberg or Web
+browsers is copied into the app’s own storage on your device. That storage is private
+to the app, so it doesn’t appear in the Files app, and moving or deleting the original
+elsewhere leaves your library as it is.</p>
+<p><strong>Edited in place.</strong> A PDF opened from Files with <em>Edit in Place</em>
+stays where it is — in iCloud Drive, On My iPad, or another app’s folder — and the
+library keeps a link to it, marked on its cover. Your ink and highlights are written into
+that file when you tap <em>Save</em>, so they go wherever the file goes. Touch and hold
+the book and choose <em>Show File Location</em> to find it in Files. Deleting it from the
+library removes only the link, never the file.</p>
+</details>
+<details class="q">
+<summary>Should I import a copy or edit in place?</summary>
+
+<p><em>Edit in Place</em> keeps one file: the right choice for a PDF that lives in iCloud
+Drive, that other apps also open, or that you want your annotations saved into.
+<em>Import a Copy</em> gives the library a copy of its own, which nothing outside the app
+can change or remove.</p>
+<p>Foldleaf asks each time you open a PDF from Files. To stop it asking, choose one under
+<em>Opening PDFs</em> in Settings.</p>
+</details>
+<details class="q">
+<summary>Does it sync between my devices?</summary>
+
+<p>Not by itself. A PDF edited in place in iCloud Drive can be opened on your iPad and your
+iPhone alike, and your annotations travel with it once saved. The rest of your library
+stays on each device, and is included in that device’s own backup.</p>
+</details>
+<details class="q">
+<summary>How do I get my notes out?</summary>
+
+<p>Share a PDF and your ink and highlights go with it, as standard PDF annotations that
+Preview, Acrobat and other readers show. A PDF edited in place already has them in the
+file itself, once saved. EPUBs are shared as they are.</p>
+</details>
+<details class="q">
+<summary>I deleted a book by mistake.</summary>
+
+<p>Deleted books wait in the Bin, at the end of the library’s folders, for a week, or
+however long you choose in Settings, from a day to a year. Open the Bin to put a book back
+in the folder it came from.</p>
+<p>Deleting an edited-in-place book only ever removes Foldleaf’s link to it; the file
+itself is still where it was.</p>
+</details>
+<details class="q">
+<summary>What’s free, and what does the unlock add?</summary>
+
+<p>Every feature is free for 14 days from when you start the trial. After that, reading,
+your library, the paged view and the plain page colours stay free, and so does
+everything you’ve already marked or cropped.</p>
+<p>Page curl, scrolling, the zoom locks, the paper colours, Crop View, the pen, the
+highlighter, controls down the side, and Back and Forward unlock with a single purchase.
+It is not a subscription. Page curl, the way books open, has its own 14 days from the first
+book you open, trial or not.</p>
+</details>
+<details class="q">
+<summary>I bought it on another device.</summary>
+
+<p>Sign in with the same Apple Account, then tap <em>Restore Purchases</em> at the top of
+Settings (the gear in the library). One purchase covers your iPhone and your iPad.</p>
+</details>
+<details class="q">
+<summary>Can I write with my finger?</summary>
+
+<p>Yes. Turn off <em>Apple Pencil Only</em> in the pen’s or the highlighter’s menu. A finger
+then draws, so scrolling takes two.</p>
+</details>
+<details class="q">
+<summary>Will my highlights survive an update?</summary>
+
+<p>Yes. Annotations, bookmarks and reading positions are kept with each book and carried
+across updates.</p>
+</details>
+<details class="q">
+<summary>Where did the Welcome guide go?</summary>
+
+<p>Deleting the guide is final until an update brings a new edition of it, which then
+appears at the top of your library.</p>
+</details>
+<details class="q">
+<summary>Is there a Mac version?</summary>
+<p>Not at present.</p>
+</details>
 </div>
 
 <h2>Reporting something that went wrong</h2>
-<p>Four things turn a report into a fix, and without them it is mostly
-guesswork:</p>
+<p>Four things turn a report into a fix:</p>
 <ul>
 <li><strong>What you did</strong>, step by step, and what happened instead of what you expected.</li>
-<li><strong>The app's version and build</strong> — in the app, tap the gear, then <em>Info</em>.</li>
-<li><strong>Your device and iOS version</strong> — Settings → General → About.</li>
-<li><strong>The document</strong>, if you can share it and it is not confidential. Most awkward bugs live inside one particular file.</li>
+<li><strong>The app’s version and build</strong>: tap the gear in the library, then <em>Info</em>.</li>
+<li><strong>Your device and its iOS or iPadOS version</strong>: Settings → General → About.</li>
+<li><strong>The document</strong>, if you can share it and it isn’t confidential. Most awkward bugs live inside one particular file.</li>
 </ul>
 
-<h2>Common questions</h2>
-
-<h3>Does it sync between devices?</h3>
-<p>Not at present. Your library is included in your device's own backup, so it
-comes back with the rest of your iPad's data if you restore it.</p>
-
-<h3>Where are my books kept?</h3>
-<p>Importing copies the file into the app's own storage, so deleting the
-original elsewhere does not affect your library. The app's folder is visible
-in the Files app.</p>
-
-<h3>Will my highlights survive an update?</h3>
-<p>Yes. Annotations, bookmarks and reading positions are stored alongside each
-book and carried across updates.</p>
-
-<h3>Is there a Mac version?</h3>
-<p>Not at present.</p>
-
 <h2>Requests</h2>
-<p>Feature requests are welcome and are read, though not all of them can be
-built. Say what you are trying to do rather than how you think it should work
-— the problem is more useful than the proposed solution.</p>
+<p>Feature requests are welcome and are all read, though not all of them can be built.
+Say what you are trying to do rather than how you think it should work: the problem is
+more useful than the proposed solution.</p>
 
+</div>
 </main>
-<footer>
+
+<footer class="home-footer">
 <p>© 2026 Tevong You. All rights reserved.</p>
+<nav><a href="index.html">Overview</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 </footer>
+
+<script>
+(() => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Each piece rises into place the first time it comes into view.
+  const pieces = document.querySelectorAll(".reveal");
+  if (still || !("IntersectionObserver" in window)) {
+    pieces.forEach(p => p.classList.add("in"));
+  } else {
+    const seen = new IntersectionObserver(entries => {
+      for (const e of entries) if (e.isIntersecting) { e.target.classList.add("in"); seen.unobserve(e.target); }
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.1 });
+    pieces.forEach(p => seen.observe(p));
+  }
+
+  // The galleries' buttons.
+  document.querySelectorAll(".paddles button").forEach(b => b.addEventListener("click", () => {
+    const g = document.getElementById(b.dataset.for);
+    g.scrollBy({ left: Number(b.dataset.dir) * g.clientWidth * 0.8, behavior: still ? "auto" : "smooth" });
+  }));
+
+  if (still) return;
+  const clamp = v => Math.min(1, Math.max(0, v));
+  const ipad = document.querySelector(".stage img");
+  const words = [...document.querySelectorAll(".statement .w")];
+  const statement = document.querySelector(".statement");
+  let queued = false;
+  const frame = () => {
+    queued = false;
+    const vh = innerHeight;
+    // The iPad lies back, then sits up as it nears the top of the window.
+    if (ipad) {
+      const top = ipad.parentElement.getBoundingClientRect().top;
+      const p = clamp(1 - (top - vh * 0.1) / (vh * 0.65));
+      ipad.style.transform = `rotateX(${(1 - p) * 18}deg) scale(${0.88 + 0.12 * p})`;
+    }
+    // The sentence lights up as it passes through the middle of the window.
+    if (statement) {
+      const r = statement.getBoundingClientRect();
+      const p = clamp((vh * 0.78 - r.top) / (r.height * 0.75));
+      const lit = Math.round(p * words.length);
+      words.forEach((w, i) => w.classList.toggle("lit", i < lit));
+    }
+  };
+  const ask = () => { if (!queued) { queued = true; requestAnimationFrame(frame); } };
+  addEventListener("scroll", ask, { passive: true });
+  addEventListener("resize", ask);
+  frame();
+})();
+</script>
 </body>
 </html>

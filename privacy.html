@@ -6,95 +6,173 @@
 <title>Privacy · Foldleaf Reader</title>
 <meta name="description" content="Foldleaf Reader does not collect personal data.">
 <link rel="canonical" href="https://foldleafreader.github.io/foldleaf/privacy.html">
+<link rel="icon" href="images/favicon.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="home.css">
+<script>document.documentElement.classList.add("js")</script>
 </head>
-<body>
-<header>
-<h1>Privacy</h1>
-<nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+<body class="home doc">
+
+<header class="topbar">
+<div class="inner">
+<a class="brand" href="index.html" aria-label="Foldleaf Reader"><img src="images/icon-256.png" alt="" width="28" height="28"><span>Foldleaf Reader</span></a>
+<nav>
+<a class="wide" href="index.html">Overview</a>
+<a href="support.html">Support</a>
+<a href="privacy.html">Privacy</a>
+<a class="pill" href="index.html#get">Coming soon</a>
+</nav>
+</div>
 </header>
+
 <main>
+<section class="doc-head">
+<h1 class="reveal">Privacy</h1>
+<p class="lede reveal" style="--i:1">Foldleaf Reader collects no personal data. Here is what it keeps on your device, what it connects to, and why.</p>
+</section>
+<div class="doc-body">
 
-<p class="lede">Foldleaf Reader does not collect personal data.
-This page explains what the app stores, what it connects to, and what would
-happen if that changed.</p>
+<div class="summary reveal">
+<div><h3>Nothing collected</h3><p>No account, no analytics, no advertising, no tracking.</p></div>
+<div><h3>On your device</h3><p>Your books and notes stay with you. The developer never sees them.</p></div>
+<div><h3>Only what you ask</h3><p>The app goes online only to fetch what you open or save.</p></div>
+</div>
 
-<p class="muted">In effect from 1 October 2026.</p>
+<p class="muted">In effect from 1 October 2026, last updated 3 October 2026.</p>
 
 <h2>What is collected</h2>
-<p>Nothing about you. There is no account, no sign-in and no profile. The app
-contains no analytics, no advertising and no tracking of any kind, and no
-third-party SDK that reports on how it is used. The developer receives no
-information about you or about how you use the app.</p>
+<p>Nothing about you. There is no account, no sign-in and no profile. The app contains no
+analytics, no advertising and no tracking of any kind, and no third-party SDK that reports
+on how it is used. The developer receives no information about you or about how you use
+the app.</p>
 
 <h2>Your books and your annotations</h2>
-<p>Documents you import are copied into the app's own storage on your device.
-Highlights, Pencil drawings, bookmarks, reading positions and folder names are
-stored there alongside them. The developer does not receive them and has no
-way to see them.</p>
-<p>Whatever you use to back up your device — iCloud Backup or a computer —
-will include this data, as it does for any app. That backup is governed by
-Apple's terms, not by this policy.</p>
+<p>Documents you import are copied into the app’s own storage on your device. Highlights,
+Pencil drawings, bookmarks, reading positions and folder names are stored there alongside
+them. The developer does not receive them and has no way to see them.</p>
+<p>A PDF you open with <em>Edit in Place</em> stays where it is, in Files: the app keeps a
+link to it, and writes your annotations into the file itself when you tap
+<em>Save</em>. If that file is in iCloud Drive or another provider’s storage, it is kept
+and synced there under that provider’s terms, as it would be for any other app.</p>
+<p>Whatever you use to back up your device — iCloud Backup or a computer — will include
+the app’s data, as it does for any app. That backup is governed by Apple’s terms, not by
+this policy.</p>
 
 <h2>Network connections</h2>
-<p>The app contacts no server run by the developer. Reading needs no
-connection at all. The app does reach the internet in these cases, each of
-them something you asked for:</p>
+<p>The app contacts no server run by the developer. Reading needs no connection at all. The
+app does reach the internet in these cases, each of them something you asked for:</p>
 <ul>
-<li><strong>The arXiv, Project Gutenberg and Web browsers</strong> load the
-sites you open in them — arxiv.org, gutenberg.org, and whatever you visit from
-the Web browser — and download the files you save. Those sites see the
-requests as they would from any browser, under their own privacy policies, and
-may keep cookies, which the app stores on your device.</li>
-<li><strong>Two examples, if you want them.</strong> On a new library's first
-launch the app asks whether to download an example paper from arxiv.org and an
-example book from gutenberg.org. Only if you say yes does it fetch them, as
-the browsers would.</li>
-<li><strong>Naming an arXiv paper.</strong> When a paper is saved with renaming
-switched on, the app asks arXiv's public API for that paper's title and
-authors, sending only the paper's identifier.</li>
-<li><strong>A book's own contents</strong> may refer to something hosted
-elsewhere, such as an image, which your device may then fetch; and tapping a
-link in a document may open it in your browser.</li>
+<li><strong>The arXiv, Project Gutenberg and Web browsers</strong> load the sites you open
+in them — arxiv.org, gutenberg.org, and whatever you visit from the Web browser — and
+download the files you save. Those sites see the requests as they would from any browser,
+under their own privacy policies, and may keep cookies, which the app stores on your
+device.</li>
+<li><strong>Two examples, if you want them.</strong> On a new library’s first launch the
+app asks whether to download an example paper from arxiv.org and an example book from
+gutenberg.org. Only if you say yes does it fetch them, as the browsers would.</li>
+<li><strong>Naming an arXiv paper.</strong> When a paper is saved with renaming switched
+on, the app asks arXiv’s public API for that paper’s title and authors, sending only the
+paper’s identifier.</li>
+<li><strong>A book’s own contents</strong> may refer to something hosted elsewhere, such as
+an image, which your device may then fetch; and tapping a link in a document may open it
+in your browser.</li>
 </ul>
 
 <h2>Crash reports</h2>
-<p>If you have turned on <em>Share with App Developers</em> in iOS Settings →
-Privacy &amp; Security → Analytics &amp; Improvements, Apple may send the
-developer crash logs and performance data for this app. Apple collects and
-delivers these; they arrive without anything identifying you, and they are
-used only to fix faults. Turning that setting off stops them, and the app
-behaves no differently either way.</p>
+<p>If you have turned on <em>Share with App Developers</em> in iOS Settings → Privacy &amp;
+Security → Analytics &amp; Improvements, Apple may send the developer crash logs and
+performance data for this app. Apple collects and delivers these; they arrive without
+anything identifying you, and they are used only to fix faults. Turning that setting off
+stops them, and the app behaves no differently either way.</p>
 
-<h2>Purchases</h2>
-<p>Any purchase is handled by Apple. The App Store tells the app only whether
-a purchase exists; no payment details, card numbers or billing addresses reach
-the app or the developer at any point.</p>
+<h2>Purchases and the free trial</h2>
+<p>Any purchase is handled by Apple. The App Store tells the app only whether a purchase
+exists, and when the free trial began; no payment details, card numbers or billing
+addresses reach the app or the developer at any point.</p>
+<p>So that the trial and page curl’s own 14 days are counted fairly, the app keeps on your
+device the dates they began, including in the device’s keychain. These dates never leave
+your device.</p>
 
 <h2>Children</h2>
-<p>The app is not directed at children, and since it collects no personal
-data, it collects none from them either.</p>
+<p>The app is not directed at children, and since it collects no personal data, it
+collects none from them either.</p>
 
 <h2>Your rights</h2>
-<p>Data-protection rights — access, correction, erasure — concern data held
-about you. The developer holds none. What the app stores is on your own device,
-where you can read it in the Files app and remove it by deleting the app.</p>
+<p>Data-protection rights — access, correction, erasure — concern data held about you. The
+developer holds none. What the app stores is on your own device, and deleting the app
+removes it; files you edited in place stay where they are in Files, yours to keep or
+delete.</p>
 
 <h2>Changes</h2>
-<p>If this policy changes, the revised version appears here with a new date.
-A version of the app that stored your library anywhere other than your device —
-syncing it between your own devices, for example — or that collected anything
-about you, would say so in the app itself before you used it, and this page
-would say where that data is kept and who can see it.</p>
+<p>If this policy changes, the revised version appears here with a new date. A version of
+the app that stored your library anywhere other than your device — syncing it between your
+own devices, for example — or that collected anything about you, would say so in the app
+itself before you used it, and this page would say where that data is kept and who can
+see it.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy: foldleafreader@gmail.com</p>
 <p class="muted">Data controller: Tiann-Tevong You,
 54 Conyers Road, London SW16 6LT, United Kingdom, +44 7478 950653.</p>
 
+</div>
 </main>
-<footer>
+
+<footer class="home-footer">
 <p>© 2026 Tevong You. All rights reserved.</p>
+<nav><a href="index.html">Overview</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 </footer>
+
+<script>
+(() => {
+  const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  // Each piece rises into place the first time it comes into view.
+  const pieces = document.querySelectorAll(".reveal");
+  if (still || !("IntersectionObserver" in window)) {
+    pieces.forEach(p => p.classList.add("in"));
+  } else {
+    const seen = new IntersectionObserver(entries => {
+      for (const e of entries) if (e.isIntersecting) { e.target.classList.add("in"); seen.unobserve(e.target); }
+    }, { rootMargin: "0px 0px -8% 0px", threshold: 0.1 });
+    pieces.forEach(p => seen.observe(p));
+  }
+
+  // The galleries' buttons.
+  document.querySelectorAll(".paddles button").forEach(b => b.addEventListener("click", () => {
+    const g = document.getElementById(b.dataset.for);
+    g.scrollBy({ left: Number(b.dataset.dir) * g.clientWidth * 0.8, behavior: still ? "auto" : "smooth" });
+  }));
+
+  if (still) return;
+  const clamp = v => Math.min(1, Math.max(0, v));
+  const ipad = document.querySelector(".stage img");
+  const words = [...document.querySelectorAll(".statement .w")];
+  const statement = document.querySelector(".statement");
+  let queued = false;
+  const frame = () => {
+    queued = false;
+    const vh = innerHeight;
+    // The iPad lies back, then sits up as it nears the top of the window.
+    if (ipad) {
+      const top = ipad.parentElement.getBoundingClientRect().top;
+      const p = clamp(1 - (top - vh * 0.1) / (vh * 0.65));
+      ipad.style.transform = `rotateX(${(1 - p) * 18}deg) scale(${0.88 + 0.12 * p})`;
+    }
+    // The sentence lights up as it passes through the middle of the window.
+    if (statement) {
+      const r = statement.getBoundingClientRect();
+      const p = clamp((vh * 0.78 - r.top) / (r.height * 0.75));
+      const lit = Math.round(p * words.length);
+      words.forEach((w, i) => w.classList.toggle("lit", i < lit));
+    }
+  };
+  const ask = () => { if (!queued) { queued = true; requestAnimationFrame(frame); } };
+  addEventListener("scroll", ask, { passive: true });
+  addEventListener("resize", ask);
+  frame();
+})();
+</script>
 </body>
 </html>
