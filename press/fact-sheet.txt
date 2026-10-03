@@ -1,0 +1,27 @@
+Foldleaf Reader
+
+Foldleaf Reader is a PDF and EPUB reader for iPad and iPhone, with pages that turn like paper, margins cropped away once for a whole document, and a pen and highlighter for the Apple Pencil.
+
+Most academic papers waste a third of every page on white margins, and most reading apps scroll a document like a web page. Foldleaf Reader treats it as paper instead. Pages turn with a curl that follows the finger, sideways like a book or upward like a wall calendar. Crop View trims the margins off every page of a PDF in one go, so the text fills the screen. Four pens and a highlighter answer the Apple Pencil’s pressure and tilt, a held stroke snaps straight, and everything written can be shared as standard PDF annotations. arXiv and Project Gutenberg are built in, so a paper or a classic is a tap away. There is no account and no tracking, and every feature is free to try for 14 days before a single purchase, not a subscription, unlocks them for good.
+
+Developer: Tevong You
+Based in: London, United Kingdom
+Platforms: iPad and iPhone
+Requires: iPadOS 18 or iOS 18 or later
+Release: Coming soon to the App Store
+Price: Free to download, with every feature free for 14 days. One purchase of £12.99 (launch price £9.99 for a limited time), or the local equivalent, unlocks everything for good, on iPhone and iPad alike. Not a subscription.
+Languages: English. App Store listing also in French, German, Spanish, Italian, Japanese and Portuguese.
+Website: https://foldleafreader.github.io/foldleaf/
+Press contact: foldleafreader@gmail.com
+
+Features:
+- Page curl that follows the finger, sideways or upward, for PDFs and EPUBs
+- Crop View: trim a PDF’s margins once, and the whole document opens that way
+- Apple Pencil: four pens and a highlighter, pressure and tilt, lines that snap straight
+- arXiv and Project Gutenberg built in: papers named for their authors and title, free books saved as EPUBs
+- Edit in Place: annotate a PDF where it lives in Files, iCloud Drive included
+- Shareable notes: ink and highlights exported as standard PDF annotations
+- Made for reading: light and dark, paper colours, controls along the top or down the side, fullscreen
+- Private: no account, no sign-in, no tracking, no analytics
+
+The screenshots and icon may be used in coverage of Foldleaf Reader.
