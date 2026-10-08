@@ -120,6 +120,9 @@ body.home { padding: 0; overflow-x: hidden; }
   display: flex; flex-direction: column; gap: 22px;
 }
 .review-col > .review { flex: 1 1 auto; }
+/* A short review on its own: as tall as its words, centred in the column. */
+.review-col.lone { justify-content: center; }
+.review-col.lone > .review { flex: 0 0 auto; }
 /* Centred while they all fit across; from the start once they scroll, when
    the margins come to nothing. */
 .gallery.reviews > :first-child { margin-left: auto; }
