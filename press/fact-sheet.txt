@@ -1,12 +1,12 @@
 Foldleaf Reader
 
-Foldleaf Reader is a PDF and EPUB reader for iPad and iPhone, with pages that turn like paper, margins cropped away once for a whole document, and a pen and highlighter for the Apple Pencil.
+Foldleaf Reader is a PDF and EPUB reader for iPad, iPhone, and iPhone Duo, with pages that turn like paper, margins cropped away once for a whole document, and a pen and highlighter for the Apple Pencil.
 
 Most academic papers waste a third of every page on white margins, and most reading apps scroll a document like a web page. Foldleaf Reader treats it as paper instead. Pages turn with a curl that follows the finger, sideways like a book or upward like a wall calendar. Crop View trims the margins off every page of a PDF in one go, so the text fills the screen. Four pens and a highlighter answer the Apple Pencil’s pressure and tilt, a held stroke snaps straight, and everything written can be shared as standard PDF annotations. arXiv and Project Gutenberg are built in, so a paper or a classic is a tap away. There is no account and no tracking, and every feature is free to try for 14 days before a single purchase, not a subscription, unlocks them for good.
 
 Developer: Tevong You
 Based in: London, United Kingdom
-Platforms: iPad and iPhone
+Platforms: iPad, iPhone, and iPhone Duo
 Requires: iPadOS 18 or iOS 18 or later
 Release: Available on the App Store from 8 October 2026
 Price: Free to download, with every feature free for 14 days. One purchase of £12.99 (launch price £9.99 for a limited time), or the local equivalent, unlocks everything for good, on iPhone and iPad alike. Not a subscription.
