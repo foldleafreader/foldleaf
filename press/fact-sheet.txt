@@ -8,7 +8,7 @@ Developer: Tevong You
 Based in: London, United Kingdom
 Platforms: iPad and iPhone
 Requires: iPadOS 18 or iOS 18 or later
-Release: Coming soon to the App Store
+Release: Available on the App Store from 8 October 2026
 Price: Free to download, with every feature free for 14 days. One purchase of £12.99 (launch price £9.99 for a limited time), or the local equivalent, unlocks everything for good, on iPhone and iPad alike. Not a subscription.
 Languages: English. App Store listing also in French, German, Spanish, Italian, Japanese and Portuguese.
 Website: https://foldleafreader.github.io/foldleaf/
