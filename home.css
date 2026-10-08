@@ -115,7 +115,16 @@ body.home { padding: 0; overflow-x: hidden; }
 /* What readers have said, under the button, before the first picture: a
    gallery of its own, edge to edge out of the opening's margins. */
 .hero .gallery.reviews { margin: 56px -22px 0; padding-bottom: 28px; }
-.gallery.reviews > .review { flex-basis: min(84vw, 460px); }
+.gallery.reviews > .review-col {
+  flex-basis: min(84vw, 460px);
+  display: flex; flex-direction: column; gap: 22px;
+}
+.review-col > .review { flex: 1 1 auto; }
+/* Centred while they all fit across; from the start once they scroll, when
+   the margins come to nothing. */
+.gallery.reviews > :first-child { margin-left: auto; }
+.gallery.reviews > :last-child { margin-right: auto; }
+.paddles[hidden] { display: none; }
 .hero .paddles { padding: 0; }
 .review {
   margin: 0; text-align: left;
