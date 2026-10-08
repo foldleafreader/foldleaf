@@ -116,7 +116,7 @@ body.home { padding: 0; overflow-x: hidden; }
    gallery of its own, edge to edge out of the opening's margins. */
 .hero .gallery.reviews { margin: 56px -22px 0; padding-bottom: 28px; }
 .gallery.reviews > .review-col {
-  flex-basis: min(84vw, 360px);
+  flex-basis: min(78vw, 320px);
   display: flex; flex-direction: column; gap: 22px;
 }
 .review-col > .review { flex: 1 1 auto; }
