@@ -139,11 +139,23 @@ see it.</p>
     pieces.forEach(p => seen.observe(p));
   }
 
-  // The galleries' buttons.
+  // The galleries' buttons, and none under a gallery that fits across.
+  // One item along, its left edge where the row begins: a fraction of the
+  // gallery's width overshot the next item and left it cut off.
   document.querySelectorAll(".paddles button").forEach(b => b.addEventListener("click", () => {
     const g = document.getElementById(b.dataset.for);
-    g.scrollBy({ left: Number(b.dataset.dir) * g.clientWidth * 0.8, behavior: still ? "auto" : "smooth" });
+    const dir = Number(b.dataset.dir);
+    const start = g.getBoundingClientRect().left + (parseFloat(getComputedStyle(g).scrollPaddingLeft) || 0);
+    const items = [...g.children].map(c => c.getBoundingClientRect().left - start);
+    const next = dir > 0 ? items.find(x => x > 2) : items.reverse().find(x => x < -2);
+    if (next !== undefined) g.scrollBy({ left: next, behavior: still ? "auto" : "smooth" });
   }));
+  const fitted = () => document.querySelectorAll(".paddles").forEach(p => {
+    const g = document.getElementById(p.querySelector("button").dataset.for);
+    p.hidden = g.scrollWidth <= g.clientWidth + 1;
+  });
+  fitted();
+  addEventListener("resize", fitted);
 
   if (still) return;
   const clamp = v => Math.min(1, Math.max(0, v));
